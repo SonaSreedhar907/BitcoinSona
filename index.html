@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin</title>
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="bitcoin.css" type="text/css">
+    <script src="bit.js"></script>
+</head>
+<body>
+    <overflow-x:hidden>
+    <!--header-->
+<div class="header">
+    <div class="content">
+        <p class="content-text">Bitcoin.org needs your support!</p>
+    </div>
+</div>
+
+<div class="head">
+    <div class="flexbox-container">
+        <div class="flexbox-item flexbox-item-logotop">
+            <a href="#" class="logo">
+                <img src="images/logotop.svg" alt="Bitcoin">
+            </a>
+        </div>
+        <div class="flexbox-item flexbox-item-topcontent" id="menusimple" class="menusimple menumain" onclick="mobileMenuHover(event);" ontouchstart="mobileMenuHover(event);">
+            <a class="content-expand" href="https://bitcoin.org/en/bitcoin-for-individuals">Introduction</a>
+            <a class="content-expand" href="https://bitcoin.org/en/resources">Resources</a>
+            <a class="content-expand">Innovation</a>
+            <a class="content-expand">Participate</a>
+            <a class="content-expand">FAQ</a>
+        </div>
+        <div class="flexbox-item flexbox-item-englishtop">
+            <a class="lang is-expand">English</a>
+        </div>
+    </div>
+</div>
+
+<!--body part-->
+<div class="body">
+    <div class="breadth">
+        <div id="overall" class="overall">
+            <div class="maincontent">
+                <div class="content-concept">
+                    <p class="mainsummary">Bitcoin is an innovative payment <br> network and a new kind of money.</p>
+                    <div class="btn-container">
+                        <a class="btn btn-light btn-home" href="#">Get started with Bitcoin</a>
+                        <a class="btn btn-light btn-home" href="#">Choose your wallet</a>
+                        <a class="btn btn-light btn-home" href="#">Buy Bitcoin</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mainoverview">
+                <div class="concept">
+                    <div class="mainoverview-title">Get a quick overview for</div>
+                        <a href="#" class="maincard">
+                            <img class="maincard-img" src="images/ico_individuals.svg" alt="Icon">
+                            <div>
+                                <p class="maincard-title">Individuals</p>
+                                <p class="maincard-link">Learn more</p>
+                            </div>
+                        </a>
+                        <a href="#" class="maincard">
+                            <img class="maincard-img" src="images/ico_business.svg" alt="Icon">
+                            <div>
+                                <p class="maincard-title">Businesses</p>
+                                <p class="maincard-link">Learn more</p>
+                            </div>
+                        </a>
+                        <a href="#" class="maincard">
+                            <img class="maincard-img" src="images/ico_developers.svg" alt="Icon">
+                            <div>
+                                <p class="maincard-title">Developers</p>
+                                <p class="maincard-link">Learn more</p>
+                            </div>
+                        </a>
+                    </div>
+                    <a href="#" class="btn-down">
+                        <img src="images/ico_arrow_down.svg" alt="link">
+                    </a>
+            </div>
+            <div class="maindesc">
+                <div class="concept">
+                    <button onclick="show()" class="btnclick"><a href="https://bitcoin.org/en/getting-started">Get started with bitcoin</a></button>
+                    <div class="maindesc-part1">
+                        <div class="flexbox-container">
+                            <div class="flexbox-item flexbox-item-content1">
+                                <p class="maindesc-text">Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions  and the issuing of bitcoins is carried out collectively by the network.<b>Bitcoin is open-source; its design is public, nobody owns or controls Bitcoin and everyone can take part.</b>Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous payment system.</p>
+                                <ul class="mainlist">
+                                    <li class="mainlist-item">
+                                        <div class="flexbox-container">
+                                            <div class="flexbox-item flexbox-item-pic">
+                                                <img src="images/main_ico_instant.svg" alt="Icon">
+                                            </div>
+                                            <div class="flexbox-item flexbox-item-mssg">
+                                                <p> <b>Fast peer-to-peer transactions</b> </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mainlist-item">
+                                        <div class="flexbox-container">
+                                            <div class="flexbox-item flexbox-item-pic">
+                                                <img src="images/main_ico_worldwide.svg" alt="Icon">
+                                            </div>
+                                            <div class="flexbox-item flexbox-item-mssg">
+                                                <p> <b>World wide payments</b> </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mainlist-item">
+                                        <div class="flexbox-container">
+                                            <div class="flexbox-item flexbox-item-pic">
+                                                <img src="images/main_ico_lowfee.svg" alt="Icon">
+                                            </div>
+                                            <div class="flexbox-item flexbox-item-mssg">
+                                                <p> <b>Low processing fees</b> </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="flexbox-item flexbox-item-content2">
+                                <img class="maindesc-img" src="images/bitcoin-img.svg" alt="Bitcoin image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-container">
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<div class="footer">
+    <div class="concept">
+        <a href="#" class="logo-footer">
+            <img src="images/logo-footer.svg" alt="Bitcoin">
+        </a>
+        <div class="footer-summary">
+            <div class="flexbox-container">
+                <div class="flexbox-item flexbox-item-foot1">
+                    <span class="footer-title">Support Bitcoin.org</span>
+                </div>
+                <div class="flexbox-item flexbox-item-foot2">
+                    <div class="footermenu">
+                        <div class="flexbox-container">
+                            <div class="flexbox-item flexbox-item-intro">
+                                <div class="footermenu-item footermenu-introduction">
+                                    <p class="footer-title">Introduction:</p>
+                                    <div><a href="" id="alink"></a>Individuals</div>
+                                    <div><a href="" id="alink"></a>Businesses</div>
+                                    <div><a href="" id="alink"></a>Developers</div>
+                                    <div><a href="" id="alink"></a>Getting started</div>
+                                    <div><a href="" id="alink"></a>How it works</div>
+                                    <div><a href="" id="alink"></a>You need to know</div>
+                                    <div><a href="" id="alink"></a>White paper</div>
+                                </div>
+                            </div>
+                            <div class="flexbox-item flexbox-item-res">
+                                <div class="footermenu-item footermenu-resources">
+                                    <p class="footer-title">Resources:</p>
+                                    <div><a href="" id="alink"></a>Resources</div>
+                                    <div><a href="" id="alink"></a>Exchanges</div>
+                                    <div><a href="" id="alink"></a>Community</div>
+                                    <div><a href="" id="alink"></a>Vocabulary</div>
+                                    <div><a href="" id="alink"></a>Events</div>
+                                    <div><a href="" id="alink"></a>Bitcoin Core</div>
+                                </div>
+                            </div>
+                            <div class="flexbox-item flexbox-item-parti">
+                                <div class="footermenu-item footermenu-participate">
+                                    <p class="footer-title">Participate:</p>
+                                    <div><a href="" id="alink"></a>SupportBitcoin</div>
+                                    <div><a href="" id="alink"></a>Buy Bitcoin</div>
+                                    <div><a href="" id="alink"></a>Running a full node</div>
+                                    <div><a href="" id="alink"></a>Developement</div>
+                                </div>
+                            </div>
+                            <div class="flexbox-item flexbox-item-other">
+                                <div class="footermenu-item footermenu-other">
+                                    <p class="footer-title">Other:</p>
+                                    <div><a href="" id="alink"></a>Avoid Scams</div>
+                                    <div><a href="" id="alink"></a>Legal</div>
+                                    <div><a href="" id="alink"></a>Privacy Policy</div>
+                                    <div><a href="" id="alink"></a>Press</div>
+                                    <div><a href="" id="alink"></a>About bitcoin.org</div>
+                                    <div><a href="" id="alink"></a>Blog</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="englishNet">
+        <div><p id="netText">© Bitcoin Project 2009-2022 Released under the MIT license</p></div>
+    </div>
+</div>
+
+<!--popper and bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</overflow-x:hidden>
+</body>
+</html>
